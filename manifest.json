@@ -1,0 +1,12 @@
+{
+    "name": "Jisho Translator",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Helps translate Japanese Kanji",
+
+    "permissions": ["contextMenus"],
+    "background": {
+        "scripts": ["translator.js"],
+        "persistent": false
+    }
+}
